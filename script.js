@@ -37,7 +37,7 @@ fetch('kleding.json')
             const outputDiv = document.getElementById('output');
 
             outputDiv.innerHTML =  `
-                <p>Je hebt de Objectieve stijl gekozen. Om te beginnen heb ik een <b>${willekeurigeSubjectieveTrui}</b> gecombineerd met
+                <p>Je hebt de Subjectieve stijl gekozen. Om te beginnen heb ik een <b>${willekeurigeSubjectieveTrui}</b> gecombineerd met
                  een leuke <b>${willekeurigeSubjectieveBroek}</b>, en natuurlijk 
                  hoort daar een schattige <b>${willekeurigSubjectieveAccessoire}</b> bij! </p>
                 `
