@@ -9,7 +9,6 @@ fetch('kleding.json')
 
         document.getElementById('objectief').addEventListener('click', function (event) {
             const objectiefKleding = data.Objectief;
-            // const subjectiefKleding = data.Subjectief;
 
             const willekeurigeObjectieveTrui = kiesWillekeurigKledingstuk(objectiefKleding.Truien);
             const willekeurigeObjectieveBroek = kiesWillekeurigKledingstuk(objectiefKleding.Broeken);
