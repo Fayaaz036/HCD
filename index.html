@@ -8,13 +8,43 @@
 <body>
 <h1 role="presentation">Welkom Petra!</h1>
 
-<h1 aria-live="assertive">Kies welke stijl je vandaag wilt</h1>
+
+<section id="keuzeForm">
+    <h1 aria-live="assertive">Wat wil je vandaag doen? </h1>
+    <button id="nieuweoutfit" type="button" >Ik heb een outfit nodig </button>
+    <button id="gekocht" type="button" >Ik heb nieuwe kleding gekocht</button>
+</section>
+
+<section id="addClothes" aria-live="assertive" class="hidden">
+    <fieldset>
+        <legend>Watvoor kledingstuk heb je gekocht Petra?</legend>
+        <label>
+            <input type="radio" id="truien" value="truien"> Ik heb een trui gekocht
+        </label>
+        <label>
+            <input type="radio" id="broeken" value="broeken"> Ik heb een broek gekocht
+        </label>
+        <label>
+            <input type="radio" id="accessoires" value="accessoires"> Ik heb een accessoires gekocht
+        </label>
+    </fieldset>
+<fieldset>
+    <label>
+        <input type="text" id="kledingstuk" placeholder="Vul hier in watvoor kleding je hebt.">
+    </label>
+</fieldset>
+
+
+    <button id="addOutfit" type="button" >Voeg toe aan mijn kledingkast </button>
+</section>
+
 <section id="kledingForm">
+    <h1 aria-live="assertive">Kies welke stijl je vandaag wilt</h1>
     <button id="objectief" type="button" >Ik een casual outfit nodig </button>
     <button id="subjectief" type="button" >Ik heb een zakelijke en nette outfit nodig</button>
 </section>
 
-<section id="output" aria-live="assertive">
+<section id="output" aria-live="assertive" class="hidden">
 </section>
 
 

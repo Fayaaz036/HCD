@@ -1,38 +1,30 @@
 {
-  "Objectief": {
-    "Truien": [
-      "Bloemenprint blouse in de kleur roze",
-      "Trui met geometrisch patroon in de kleur paars en roze",
-      "Patchwork shirt in de kleur multi-kleurig",
-      "Top met abstracte print in de kleur blauw, groen en geel",
-      "Gestreepte trui in de kleur zwart en wit",
-      "Gebreide grijze trui",
-      "Gebloemde trui in de kleur geel en roze",
-      "Gestreepte sweater in de kleur blauw en groen"
-    ],
-    "Broeken": [
-      "Gestreepte A-lijn rok in de kleur blauw en wit",
-      "Polka dot jurk in de kleur rood en wit",
-      "Vlinderprint rok in de kleur geel en blauw",
-      "Broek met geometrische print in de kleur rood en groen",
-      "Bloemenprint broek in de kleur geel en roze",
-      "Gestreepte broek in de kleur zwart en grijs",
-      "Wijde blauwe broek",
-      "Korte roze broek"
-    ],
-    "Accessoires": [
-      "Paisley print sjaal in de kleur groen en geel",
-      "Chevron print sjaal in de kleur oranje en bruin",
-      "Abstracte print sjaal in de kleur blauw, paars en groen",
-      "Bijpassende roze haarband",
-      "Bloemenprint tote tas in de kleur geel en roze",
-      "Gestreepte riem in de kleur zwart en wit",
-      "Zilveren statement oorbellen",
-      "Kralen armband in meerdere kleuren"
-    ]
-  },
-  "Subjectief": {
-    "Truien": [
+  "objectief":
+{
+  "truien": [
+    "Gestreepte trui in de kleur zwart en wit",
+    "Gebreide grijze trui",
+    "Gestreepte sweater in de kleur blauw en groen",
+    "Gebloemde trui in de kleur geel en roze"
+  ],
+  "broeken": [
+    "Gestreepte A-lijn rok in de kleur blauw en wit",
+    "Gestreepte broek in de kleur zwart en grijs",
+    "Wijde blauwe broek",
+    "Korte roze broek"
+  ],
+  "accessoires": [
+    "Paisley print sjaal in de kleur groen en geel",
+    "Gestreepte riem in de kleur zwart en wit",
+    "Bijpassende roze haarband",
+    "Bloemenprint tote tas in de kleur geel en roze",
+    "Zilveren statement oorbellen",
+    "Kralen armband in meerdere kleuren"
+  ]
+}
+,
+  "subjectief": {
+    "truien": [
       "Blazer met kraag in de kleur marineblauw",
       "Jumpsuit met wijde pijpen in de kleur marineblauw",
       "Gebreide trui met kabelpatroon in de kleur crème",
@@ -42,7 +34,7 @@
       "Gebreide sweater in de kleur blauw",
       "Gestreepte cardigan in de kleur groen en wit"
     ],
-    "Broeken": [
+    "broeken": [
       "Gingham print broek in de kleur zwart en wit",
       "Fluwelen broek in de kleur burgundy",
       "Kokerrok in de kleur zwart",
@@ -52,7 +44,7 @@
       "Zwarte leren broek in de kleur zwart",
       "Gestreepte pantalon in de kleur blauw en grijs"
     ],
-    "Accessoires": [
+    "accessoires": [
       "Gouden statement ketting",
       "Trenchcoat in de kleur kaki",
       "Hoed met brede rand in de kleur zwart",
