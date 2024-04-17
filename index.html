@@ -8,7 +8,6 @@
 <body>
 <h1 role="presentation">Welkom Petra!</h1>
 
-
 <section id="keuzeForm">
     <h1 aria-live="assertive">Wat wil je vandaag doen? </h1>
     <button id="nieuweoutfit" type="button" >Ik heb een outfit nodig </button>
@@ -19,13 +18,13 @@
     <fieldset>
         <legend>Watvoor kledingstuk heb je gekocht Petra?</legend>
         <label>
-            <input type="radio" id="truien" value="truien"> Ik heb een trui gekocht
+            <input type="radio" id="truien" value="truien" name="keuze"> Ik heb een trui gekocht
         </label>
         <label>
-            <input type="radio" id="broeken" value="broeken"> Ik heb een broek gekocht
+            <input type="radio" id="broeken" value="broeken" name="keuze"> Ik heb een broek gekocht
         </label>
         <label>
-            <input type="radio" id="accessoires" value="accessoires"> Ik heb een accessoires gekocht
+            <input type="radio" id="accessoires" value="accessoires" name="keuze"> Ik heb een accessoires gekocht
         </label>
     </fieldset>
 <fieldset>
@@ -36,6 +35,7 @@
 
 
     <button id="addOutfit" type="button" >Voeg toe aan mijn kledingkast </button>
+    <p id="message"></p>
 </section>
 
 <section id="kledingForm">
