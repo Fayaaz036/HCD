@@ -43,6 +43,8 @@ fetch('kleding.json')
                  een leuke ${willekeurigeSubjectieveBroek}, en natuurlijk 
                  hoort daar een schattige ${willekeurigSubjectieveAccessoire} bij! </p>
                 `
+            
+            
         })
 
 
@@ -55,6 +57,7 @@ fetch('kleding.json')
 document.getElementById('nieuweoutfit').addEventListener('click', function (event) {
     const addClothes = document.getElementById('kledingForm');
     const newWindow = document.getElementById('newWindow');
+    const headingNew = newWindow.querySelector('h1');
 
     if (addClothes.classList.contains('show')) {
         
@@ -66,6 +69,8 @@ document.getElementById('nieuweoutfit').addEventListener('click', function (even
 
         addClothes.classList.add('show');
         addClothes.classList.remove('hidden');
+        
+        headingNew.focus();
     }
 });
 document.getElementById('gekocht').addEventListener('click', function (event) {
