@@ -6,44 +6,52 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1 aria-label="Welkom Petra!" role="heading">Welkom Petra!</h1>
 
 <section id="keuzeForm">
+    <h1 aria-label="Welkom Petra!" role="heading">Welkom Petra!</h1>
     <h1 aria-live="assertive">Wat wil je vandaag doen?</h1>
     <button id="nieuweoutfit" type="button" aria-label="Ik heb een outfit nodig">Ik heb een outfit nodig</button>
     <button id="gekocht" type="button" aria-label="Ik heb nieuwe kleding gekocht">Ik heb nieuwe kleding gekocht</button>
 </section>
 
-<section id="addClothes" aria-live="assertive" class="hidden">
-    <fieldset aria-labelledby="kledingstukLabel">
-        <legend id="kledingstukLabel">Watvoor kledingstuk heb je gekocht Petra?</legend>
-        <label>
-            <input type="radio" id="truien" value="truien" name="keuze"> Ik heb een trui gekocht
-        </label>
-        <label>
-            <input type="radio" id="broeken" value="broeken" name="keuze"> Ik heb een broek gekocht
-        </label>
-        <label>
-            <input type="radio" id="accessoires" value="accessoires" name="keuze"> Ik heb een accessoire gekocht
-        </label>
-    </fieldset>
-    <fieldset aria-labelledby="kledingstukInput">
-        <label id="kledingstukInput">
-            <input type="text" id="kledingstuk" placeholder="Vul hier in watvoor kleding je hebt.">
-        </label>
-    </fieldset>
+<section id="newWindow" class="hidden">
+    <section id="kledingForm" class="hidden">
+        <h1 aria-live="assertive">Kies welke stijl je vandaag wilt</h1>
+        <button id="objectief" type="button" aria-label="Ik een casual outfit nodig">Casual</button>
+        <button id="subjectief" type="button" aria-label="Ik heb een zakelijke en nette outfit nodig">Zakelijk en netjes</button>
 
-    <button id="addOutfit" type="button" aria-label="Voeg toe aan mijn kledingkast">Voeg toe aan mijn kledingkast</button>
-    <p id="message" aria-live="polite"></p>
+        <section id="output" aria-live="assertive" class="hidden"></section>
+
+    </section>
+
+    <section id="addClothes" aria-live="assertive" class="hidden">
+        <fieldset aria-labelledby="kledingstukLabel">
+            <legend id="kledingstukLabel">Watvoor kledingstuk heb je gekocht Petra?</legend>
+            <label>
+                <input type="radio" id="truien" value="truien" name="keuze"> Ik heb een trui gekocht
+            </label>
+            <label>
+                <input type="radio" id="broeken" value="broeken" name="keuze"> Ik heb een broek gekocht
+            </label>
+            <label>
+                <input type="radio" id="accessoires" value="accessoires" name="keuze"> Ik heb een accessoire gekocht
+            </label>
+        </fieldset>
+        <fieldset aria-labelledby="kledingstukInput">
+            <label id="kledingstukInput">
+                <input type="text" id="kledingstuk" placeholder="Vul hier in watvoor kleding je hebt.">
+            </label>
+        </fieldset>
+
+        <button id="addOutfit" type="button" aria-label="Voeg toe aan mijn kledingkast">Voeg toe aan mijn kledingkast</button>
+        <p id="message" aria-live="polite"></p>
+    </section>
+
 </section>
 
-<section id="kledingForm">
-    <h1 aria-live="assertive">Kies welke stijl je vandaag wilt</h1>
-    <button id="objectief" type="button" aria-label="Ik een casual outfit nodig">Ik een casual outfit nodig</button>
-    <button id="subjectief" type="button" aria-label="Ik heb een zakelijke en nette outfit nodig">Ik heb een zakelijke en nette outfit nodig</button>
-</section>
 
-<section id="output" aria-live="assertive" class="hidden"></section>
+
+
 
 </body>
 <script src="script.js"></script>

@@ -24,8 +24,7 @@ fetch('kleding.json')
                  hoort daar een schattige ${willekeurigObjectiefAccessoire} bij! </p>
                 `
             })
-
-
+        
         document.getElementById('subjectief').addEventListener('click', function (event) {
 
             const subjectiefKleding = data.subjectief;
@@ -48,21 +47,43 @@ fetch('kleding.json')
 
 
 
-        document.getElementById('gekocht').addEventListener('click', function (event) {
-            const addClothes = document.getElementById('addClothes');
-
-            if (addClothes.classList.contains('show')) {
-                addClothes.classList.remove('show');
-                addClothes.classList.add('hidden');
-            } else {
-                addClothes.classList.add('show');
-                addClothes.classList.remove('hidden');
-            }
-        });
+        
         
 
     })
 
+document.getElementById('nieuweoutfit').addEventListener('click', function (event) {
+    const addClothes = document.getElementById('kledingForm');
+    const newWindow = document.getElementById('newWindow');
+
+    if (addClothes.classList.contains('show')) {
+        
+        addClothes.classList.remove('show');
+        addClothes.classList.add('hidden');
+    } else {
+        newWindow.classList.add('show');
+        newWindow.classList.remove('hidden');
+
+        addClothes.classList.add('show');
+        addClothes.classList.remove('hidden');
+    }
+});
+document.getElementById('gekocht').addEventListener('click', function (event) {
+    const addClothes = document.getElementById('addClothes');
+    const newWindow = document.getElementById('newWindow');
+
+
+    if (addClothes.classList.contains('show')) {
+        addClothes.classList.remove('show');
+        addClothes.classList.add('hidden');
+    } else {
+        newWindow.classList.add('show');
+        newWindow.classList.remove('hidden');
+
+        addClothes.classList.add('show');
+        addClothes.classList.remove('hidden');
+    }
+});
 
 document.getElementById('addOutfit').addEventListener('click', function() {
     const selectedValue = document.querySelector('input[name="keuze"]:checked');
@@ -75,7 +96,6 @@ document.getElementById('addOutfit').addEventListener('click', function() {
         message.innerText = `Gelukt! Ik heb ${text} toegevoegd aan de categorie ${selectedValue.value}.`;
     }
 });
-
 
 
 
