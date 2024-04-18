@@ -130,7 +130,7 @@ document.getElementById('addOutfit').addEventListener('click', function() {
     const selectedValue = document.querySelector('input[name="keuze"]:checked');
     const text = document.getElementById('kledingstuk').value;
     const message = document.getElementById('message');
-
+    
     if (!selectedValue || !text) {
         message.innerText = 'Selecteer een categorie en voer een kledingstuk in.';
     } else {
@@ -139,7 +139,24 @@ document.getElementById('addOutfit').addEventListener('click', function() {
 });
 
 
-
+// Functie om tekst voor te lezen
+// function speakText() {
+//     const sections = document.querySelectorAll('section'); // Selecteer alle secties op de pagina
+//     let textToSpeak = ''; // Variabele om tekst op te slaan
+//
+//     // Loop door alle secties en voeg de tekst toe aan de variabele
+//     sections.forEach(section => {
+//         textToSpeak += section.textContent + ' ';
+//     });
+//
+//     // Maak een nieuw SpeechSynthesisUtterance-object met de tekst
+//     const utterance = new SpeechSynthesisUtterance(textToSpeak);
+//
+//     // Start het voorlezen van de tekst
+//     speechSynthesis.speak(utterance);
+// }
+//
+// document.getElementById('nieuweoutfit').addEventListener('click', speakText);
 
 
 
