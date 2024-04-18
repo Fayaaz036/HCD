@@ -23,13 +23,13 @@ section {
 
 h1 {
     color: #333;
-    font-size: 2em;
+    font-size: 3em;
     margin-bottom: 20px;
 }
 
 p {
     color: #666;
-    font-size: 1.2em;
+    font-size: 2em;
     line-height: 1.6;
 }
 
@@ -39,7 +39,7 @@ button {
     color: #fff;
     border: none;
     border-radius: 5px;
-    font-size: 1em;
+    font-size: 1.5em;
     cursor: pointer;
     transition: background-color 0.3s;
     margin: 1em;
@@ -81,4 +81,17 @@ legend {
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-color: blue;
+}
+
+
+h1:focus {
+    background-color:red;
+}
+label{
+    font-size:1.5em;
+    display:block;
+    margin: 1em;
+}
+input#kledingstuk {
+    height: 2.5em;
 }

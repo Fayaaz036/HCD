@@ -58,35 +58,62 @@ document.getElementById('nieuweoutfit').addEventListener('click', function (even
     const addClothes = document.getElementById('kledingForm');
     const newWindow = document.getElementById('newWindow');
     const headingNew = newWindow.querySelector('h1');
+    const outputDiv = document.getElementById('newWindow');
+
 
     if (addClothes.classList.contains('show')) {
         
         addClothes.classList.remove('show');
         addClothes.classList.add('hidden');
+
+        outputDiv.classList.add('hidden');
+
+
     } else {
         newWindow.classList.add('show');
         newWindow.classList.remove('hidden');
 
         addClothes.classList.add('show');
         addClothes.classList.remove('hidden');
-        
-        headingNew.focus();
+
+        const delay = 200;
+
+        setTimeout(() => {
+            headingNew.focus();
+        }, delay);
     }
 });
 document.getElementById('gekocht').addEventListener('click', function (event) {
+    const outputDiv = document.getElementById('newWindow');
     const addClothes = document.getElementById('addClothes');
-    const newWindow = document.getElementById('newWindow');
+    const newWindow = document.getElementById('addClothes');
+    const headingNew = newWindow.querySelector('h1');
+    
+
 
 
     if (addClothes.classList.contains('show')) {
         addClothes.classList.remove('show');
         addClothes.classList.add('hidden');
+        outputDiv.classList.add('hidden');
+
     } else {
         newWindow.classList.add('show');
         newWindow.classList.remove('hidden');
 
         addClothes.classList.add('show');
         addClothes.classList.remove('hidden');
+
+        outputDiv.classList.add('show');
+        outputDiv.classList.remove('hidden');
+
+
+
+        const delay = 200;
+
+        setTimeout(() => {
+            headingNew.focus();
+        }, delay);
     }
 });
 
