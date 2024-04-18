@@ -60,6 +60,9 @@ document.getElementById('nieuweoutfit').addEventListener('click', function (even
     const headingNew = newWindow.querySelector('h1');
     const outputDiv = document.getElementById('newWindow');
 
+    const sectionId = this.getAttribute('data-scroll-to');
+    const section = document.getElementById(sectionId);
+
 
     if (addClothes.classList.contains('show')) {
         
@@ -81,15 +84,19 @@ document.getElementById('nieuweoutfit').addEventListener('click', function (even
         setTimeout(() => {
             headingNew.focus();
         }, delay);
+        
     }
+    section.scrollIntoView({ behavior: 'smooth' });
+
 });
 document.getElementById('gekocht').addEventListener('click', function (event) {
     const outputDiv = document.getElementById('newWindow');
     const addClothes = document.getElementById('addClothes');
     const newWindow = document.getElementById('addClothes');
     const headingNew = newWindow.querySelector('h1');
-    
 
+    const sectionId = this.getAttribute('data-scroll-to');
+    const section = document.getElementById(sectionId);
 
 
     if (addClothes.classList.contains('show')) {
@@ -115,6 +122,8 @@ document.getElementById('gekocht').addEventListener('click', function (event) {
             headingNew.focus();
         }, delay);
     }
+    section.scrollIntoView({ behavior: 'smooth' });
+
 });
 
 document.getElementById('addOutfit').addEventListener('click', function() {

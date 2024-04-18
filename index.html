@@ -10,11 +10,13 @@
 <section id="keuzeForm">
     <h1 aria-label="Welkom Petra!" role="heading">Welkom Petra!</h1>
     <h1 aria-live="assertive">Wat wil je vandaag doen?</h1>
-    <button id="nieuweoutfit" type="button" aria-label="Ik heb een outfit nodig">Ik heb een outfit nodig</button>
-    <button id="gekocht" type="button" aria-label="Ik heb nieuwe kleding gekocht">Ik heb nieuwe kleding gekocht</button>
+    <button id="nieuweoutfit" type="button" aria-label="Ik heb een outfit nodig" data-scroll-to="newWindow">Ik heb een outfit nodig</button>
+    <button id="gekocht" type="button" aria-label="Ik heb nieuwe kleding gekocht" data-scroll-to="addClothes">Ik heb nieuwe kleding gekocht</button>
 </section>
 
 <section id="newWindow" class="hidden">
+
+
     <section id="kledingForm" class="hidden">
         <h1 aria-live="assertive" tabindex="-1">Kies welke stijl je vandaag wilt</h1>
         <button id="objectief" type="button" aria-label="Ik heb een casual outfit nodig">Casual</button>
@@ -49,10 +51,6 @@
     </section>
 
 </section>
-
-
-
-
 
 </body>
 <script src="script.js"></script>
