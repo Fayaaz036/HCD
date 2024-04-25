@@ -27,18 +27,43 @@
         <button id="subjectief" type="button" aria-label="Ik heb een zakelijke en nette outfit nodig">Zakelijk en
             netjes
         </button>
+        <button id="zomer" type="button" aria-label="Ik heb een zomerse outfit nodig">Zomers</button>
+        <button id="winter" type="button" aria-label="Ik heb een winteroutfit nodig">Winter</button>
+
 
         <section id="output" aria-live="assertive" class="hidden"></section>
     </section>
 
     <section id="addClothes" aria-live="assertive" class="hidden">
+        <fieldset aria-labelledby="kledingstijlLabel">
+            <h1 id="kledingstijlLabel" tabindex="-1">Welke catagorie wil je toevoegen?</h1>
+            <label>
+                <input type="radio" id="casual" value="truien" name="catagorie"> Casual stijl
+            </label>
+            <label>
+                <input type="radio" id="zakelijk" value="broeken" name="catagorie"> Zakelijke stijl
+            </label>
+            <label>
+                <input type="radio" id="zomers" value="accessoires" name="catagorie"> Zomerse stijl
+            </label>
+            <label>
+                <input type="radio" id="winters" value="accessoires" name="catagorie"> Winterse stijl
+            </label>
+        </fieldset>
+
         <fieldset aria-labelledby="kledingstukLabel">
             <h1 id="kledingstukLabel" tabindex="-1">Watvoor kledingstuk heb je gekocht Petra?</h1>
+            <label>
+                <input type="radio" id="jas" value="accessoires" name="keuze"> Ik heb een jas gekocht
+            </label>
             <label>
                 <input type="radio" id="truien" value="truien" name="keuze"> Ik heb een trui gekocht
             </label>
             <label>
                 <input type="radio" id="broeken" value="broeken" name="keuze"> Ik heb een broek gekocht
+            </label>
+            <label>
+                <input type="radio" id="schoenen" value="accessoires" name="keuze"> Ik heb schoenen gekocht
             </label>
             <label>
                 <input type="radio" id="accessoires" value="accessoires" name="keuze"> Ik heb een accessoire gekocht

@@ -1,28 +1,39 @@
 {
-  "objectief":
-{
-  "truien": [
-    "Gestreepte trui in de kleur zwart en wit",
-    "Gebreide grijze trui",
-    "Gestreepte sweater in de kleur blauw en groen",
-    "Gebloemde trui in de kleur geel en roze"
-  ],
-  "broeken": [
-    "Gestreepte A-lijn rok in de kleur blauw en wit",
-    "Gestreepte broek in de kleur zwart en grijs",
-    "Wijde blauwe broek",
-    "Korte roze broek"
-  ],
-  "accessoires": [
-    "Paisley print sjaal in de kleur groen en geel",
-    "Gestreepte riem in de kleur zwart en wit",
-    "Bijpassende roze haarband",
-    "Bloemenprint tote tas in de kleur geel en roze",
-    "Zilveren statement oorbellen",
-    "Kralen armband in meerdere kleuren"
-  ]
-}
-,
+  "objectief": {
+    "truien": [
+      "Gestreepte trui in de kleur zwart en wit",
+      "Gebreide grijze trui",
+      "Gestreepte sweater in de kleur blauw en groen",
+      "Gebloemde trui in de kleur geel en roze"
+    ],
+    "broeken": [
+      "Gestreepte A-lijn rok in de kleur blauw en wit",
+      "Gestreepte broek in de kleur zwart en grijs",
+      "Wijde blauwe broek",
+      "Korte roze broek"
+    ],
+    "schoenen": [
+      "Zwarte en witte sneakers",
+      "Grijze enkellaarsjes",
+      "Blauwe instappers",
+      "Roze ballerina's"
+    ],
+    "jassen": [
+      "Zwarte lange jas",
+      "Grijze gewatteerde jas",
+      "Blauwe spijkerjas",
+      "Roze bomberjack"
+    ],
+    "accessoires": [
+      "Paisley print sjaal in de kleur groen en geel",
+      "Gestreepte riem in de kleur zwart en wit",
+      "Bijpassende roze haarband",
+      "Bloemenprint tote tas in de kleur geel en roze",
+      "Zilveren statement oorbellen",
+      "Kralen armband in meerdere kleuren"
+    ]
+  },
+
   "subjectief": {
     "truien": [
       "Blazer met kraag in de kleur marineblauw",
@@ -53,6 +64,108 @@
       "Leren tas in de kleur bruin",
       "Enkel laarzen in de kleur zwart",
       "Kralenketting in meerdere kleuren"
+    ],
+    "jassen": [
+      "Wollen mantel met ceintuur in camel",
+      "Gewatteerde jas met afneembare capuchon in donkergroen",
+      "Teddy jas in beige",
+      "Leren bikerjack in zwart",
+      "Parka met imitatiebontvoering in navy blauw",
+      "Gestreepte blazer in grijs en wit",
+      "Faux fur mantel in crèmekleur",
+      "Waterdichte regenjas in marineblauw"
+    ],
+    "schoenen": [
+      "Enkellaarzen met gespen in bruin",
+      "Sneakers met metallic details in zilver",
+      "Kniehoge laarzen in zwart",
+      "Chelsea boots in taupe",
+      "Ballerina's met strikdetail in rood",
+      "Leren loafers in marineblauw",
+      "Suede pumps in bordeauxrood",
+      "Winterlaarzen met faux fur voering in grijs"
+    ]
+  },
+  "zomer": {
+    "truien": [
+      "Luchtige off-shoulder blouse in zachtroze",
+      "Zomerse tanktop met bloemenprint in pastelgeel",
+      "Gestreepte crop top in zomerse kleuren: blauw en wit",
+      "Zijden camisole in lichtblauw",
+      "Gebloemde off-shoulder top in vrolijke kleuren: rood, geel, groen",
+      "Gestreept T-shirt met zomerse motieven: oranje, roze, geel",
+      "Geknoopte crop top in zomerse kleuren: turquoise",
+      "Gestreepte mouwloze blouse in lichtgewicht stof: mintgroen"
+    ],
+    "broeken": [
+      "Zomerse wijde culottes in lichtblauw",
+      "Shorts met tropische print in groen en roze",
+      "Luchtige zomerse rok met ruches in zachtgeel",
+      "Linnen broek in zomerse kleuren: beige",
+      "Denim shorts met geborduurde bloemen in pastelkleuren",
+      "Zomerse maxi rok met kleurrijke prints: paars, oranje, blauw",
+      "Korte broek met strepen in zomerse kleuren: geel en wit",
+      "Wijde palazzo broek in lichte stof: lichtroze"
+    ],
+    "schoenen": [
+      "Sandalen met bloemendetails in pastelroze"
+    ],
+    "accessoires": [
+      "Strohoed met kleurrijke band: groen en geel",
+      "Zonnebril met spiegelglazen in roze",
+      "Gestreepte canvas tas in zomerse kleuren: blauw en geel",
+      "Kleurrijke statement oorbellen: turquoise, rood, geel",
+      "Armbandenset met zomerse accenten: oranje, groen, blauw",
+      "Zomerse sjaal in lichte stof met bloemenprint: roze en paars",
+      "Rieten strandtas met pompons in geel en roze"
     ]
   }
+,
+  "winter": {
+    "jassen": [
+      "Gewatteerde winterjas in donkerblauw",
+      "Wollen mantel in klassiek grijs",
+      "Parka met bontkraag in zwart",
+      "Teddy jas in crèmekleur",
+      "Lange gewatteerde jas in olijfgroen",
+      "Faux fur jas in zwart",
+      "Gestreepte cape in grijs en wit",
+      "Waterdichte regenjas in marineblauw"
+    ],
+    "truien": [
+      "Coltrui van dik wol in bordeauxrood",
+      "Gebreide trui met Noors patroon in donkergroen",
+      "Fleece trui in grijs",
+      "Kabelgebreide trui in crèmekleur",
+      "Gestreepte trui in blauw en wit",
+      "Wollen trui met kabelpatroon in beige",
+      "Gebreide coltrui in donkerpaars",
+      "Mouwloze coltrui in zwart"
+    ],
+    "broeken": [
+      "Gevoerde skibroek in zwart",
+      "Jeans met thermovoering in donkerblauw",
+      "Wollen broek in geruit patroon",
+      "Legging met winterse print in donkergrijs",
+      "Fluwelen broek in bordeauxrood",
+      "Gestreepte pantalon in zwart en grijs",
+      "Leren broek in donkerbruin",
+      "Corduroy broek in okergeel"
+    ],
+    "schoenen": [
+      "Winterlaarzen met voering in donkerbruin",
+      "Waterdichte snowboots in zwart"
+    ],
+    "accessoires": [
+      "Warme gebreide sjaal in aardetinten",
+      "Muts met pompon in bordeauxrood",
+      "Handschoenen van imitatiebont in zwart",
+      "Sjaal en muts set in grijs",
+      "Wollen oorwarmers in crèmekleur",
+      "Fleece gevoerde handschoenen in marineblauw"
+    ]
+  }
+
 }
+
+

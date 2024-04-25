@@ -43,12 +43,54 @@ fetch('kleding.json')
                  een leuke ${willekeurigeSubjectieveBroek}, en natuurlijk 
                  hoort daar een schattige ${willekeurigSubjectieveAccessoire} bij! </p>
                 `
-            
-            
         })
 
+        document.getElementById('winter').addEventListener('click', function (event) {
+
+            const winterKleding = data.winter;
+
+            const willekeurigeWinterTrui = kiesWillekeurigKledingstuk(winterKleding.truien);
+            const willekeurigeWinterBroek = kiesWillekeurigKledingstuk(winterKleding.broeken);
+            const willekeurigWinterAccessoire = kiesWillekeurigKledingstuk(winterKleding.accessoires);
+            const willekeurigWinterJassen = kiesWillekeurigKledingstuk(winterKleding.jassen);
+            const willekeurigWinterSchoenen = kiesWillekeurigKledingstuk(winterKleding.schoenen);
 
 
+            const outputDiv = document.getElementById('output');
+
+            document.getElementById('output').classList.add('show');
+            document.getElementById('output').classList.remove('hidden');
+
+            outputDiv.innerHTML =  `
+                <p>Je hebt voor een winterse outfit gekozen. Om te beginnen heb ik een ${willekeurigeWinterTrui}</b> gecombineerd met
+                 een leuke ${willekeurigeWinterBroek}, ${willekeurigWinterSchoenen} en een ${willekeurigWinterJassen}  natuurlijk 
+                 hoort daar een schattige ${willekeurigWinterAccessoire} bij! </p>
+                `
+        })
+
+        document.getElementById('zomer').addEventListener('click', function (event) {
+
+            const zomerKleding = data.zomer;
+
+            const willekeurigeZomerTrui = kiesWillekeurigKledingstuk(zomerKleding.truien);
+            const willekeurigeZomerBroek = kiesWillekeurigKledingstuk(zomerKleding.broeken);
+            const willekeurigZomerAccessoire = kiesWillekeurigKledingstuk(zomerKleding.accessoires);
+            const willekeurigZomerSchoenen = kiesWillekeurigKledingstuk(zomerKleding.schoenen);
+
+
+            const outputDiv = document.getElementById('output');
+
+            document.getElementById('output').classList.add('show');
+            document.getElementById('output').classList.remove('hidden');
+
+            outputDiv.innerHTML =  `
+                <p>Je hebt voor een zomerse outfit gekozen. Om te beginnen heb ik een ${willekeurigeZomerTrui}</b> gecombineerd met
+                 een leuke ${willekeurigeZomerBroek}, ${willekeurigZomerSchoenen} en natuurlijk 
+                 hoort daar een schattige ${willekeurigZomerAccessoire} bij! </p>
+                 
+                `
+            
+        })
         
         
 
@@ -127,6 +169,7 @@ document.getElementById('gekocht').addEventListener('click', function (event) {
 });
 
 document.getElementById('addOutfit').addEventListener('click', function() {
+    const selectedCata = document.querySelector('input[name="catagorie"]:checked');
     const selectedValue = document.querySelector('input[name="keuze"]:checked');
     const text = document.getElementById('kledingstuk').value;
     const message = document.getElementById('message');
@@ -134,29 +177,10 @@ document.getElementById('addOutfit').addEventListener('click', function() {
     if (!selectedValue || !text) {
         message.innerText = 'Selecteer een categorie en voer een kledingstuk in.';
     } else {
-        message.innerText = `Gelukt! Ik heb ${text} toegevoegd aan de categorie ${selectedValue.value}.`;
+        message.innerText = `Gelukt! Ik heb ${text} toegevoegd aan de categorie ${selectedValue.value}, in de stijl  ${selectedCata.value}.`;
     }
 });
 
-
-// Functie om tekst voor te lezen
-// function speakText() {
-//     const sections = document.querySelectorAll('section'); // Selecteer alle secties op de pagina
-//     let textToSpeak = ''; // Variabele om tekst op te slaan
-//
-//     // Loop door alle secties en voeg de tekst toe aan de variabele
-//     sections.forEach(section => {
-//         textToSpeak += section.textContent + ' ';
-//     });
-//
-//     // Maak een nieuw SpeechSynthesisUtterance-object met de tekst
-//     const utterance = new SpeechSynthesisUtterance(textToSpeak);
-//
-//     // Start het voorlezen van de tekst
-//     speechSynthesis.speak(utterance);
-// }
-//
-// document.getElementById('nieuweoutfit').addEventListener('click', speakText);
 
 
 
