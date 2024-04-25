@@ -8,7 +8,7 @@ IK heb een hulpmiddel gemaakt voor Petra om haar outfits uit te kiezen.
 
 ### Outfit generaten
 Ik haal de data uit een JSON bestand. hier staan de kledingstukken gesorteerd op verschillende catagorieen.
-```js
+```json
 {
   "objectief": {
     "truien": [
