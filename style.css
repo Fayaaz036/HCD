@@ -87,7 +87,7 @@ legend {
 
 
 h1:focus {
-    background-color:red;
+    /*background-color:red;*/
 }
 label{
     font-size:1.5em;
